@@ -74,8 +74,9 @@ section#about .company .go{
   color: #fff;
   font-size: 15px;
   padding: 20px 50px;
-  border: 2px solid;
+  border: 3px solid;
   width: 135px;
+  border-radius: 50px;
 }
 section#about .company a:hover{
   background-color: #535353;
@@ -408,7 +409,8 @@ section#location .wrap .right a{
   /*! width: 276px; */
   /*! line-height: 4; */
   /*! text-align: center; */
-  border: 1px solid;
+  border: 3px solid;
+  border-radius: 50px;
 }
 section#location .wrap .right a::after{
   content: "";
