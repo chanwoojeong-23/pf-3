@@ -34,13 +34,14 @@ div#title h2 + p + p{
   color: #fff;
 }
 div#title a{ /* 인라인태그에는 padding(크기에 영향)이 정확히 적용되지 않는다.display:block로 전환 */
-  border: 1px solid;
+  border: 3px solid;
   padding: 20px 30px;
   margin-top: 30px;
   display: inline-block;
   /*! width: 250px; */
   text-align: center;
   transition: all 0.5s;
+  border-radius: 50px;
 }
 div#title a::after{
   content: "";
