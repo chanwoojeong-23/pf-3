@@ -1,6 +1,6 @@
 /* 하단 */
 footer{
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: @import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo:400');
 }
 footer .wrap{
   padding-top: 50px;
@@ -51,6 +51,7 @@ footer .wrap p.copyright{
   top: 72px;
   color: #fff;
   padding-left: 38px;
+  line-height: 5;
 }
 footer .wrap p.tel{
   margin-right: 22px;
@@ -58,7 +59,7 @@ footer .wrap p.tel{
 footer .wrap p.tel strong{
   font-size: 44px;
   vertical-align: top;
-  line-height: 0.7;
+  line-height: 2.3;
 }
 
 

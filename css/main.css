@@ -72,10 +72,11 @@ section#about .company h2+p+p{
 section#about .company .go{
   background-color: #000;
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   padding: 20px 50px;
   border: 3px solid;
   width: 135px;
+  transition: all 0.5s;
   border-radius: 50px;
 }
 section#about .company a:hover{
@@ -83,7 +84,6 @@ section#about .company a:hover{
   color: #fff;
 }
 section#about .company a::after{
-  
   content: "";
   width: 10px;
   height: 10px;
@@ -410,6 +410,7 @@ section#location .wrap .right a{
   /*! line-height: 4; */
   /*! text-align: center; */
   border: 3px solid;
+  transition: all 0.5s;
   border-radius: 50px;
 }
 section#location .wrap .right a::after{
