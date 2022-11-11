@@ -7,7 +7,7 @@ section{
   /*! border: 3px solid #999; */
   box-sizing: border-box;
   border-top: transparent;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Hahmlet', serif;
 }
 .wrap{
   padding-top: 150px;
@@ -29,8 +29,8 @@ section{
 }
 .subject2{
   font-size: 40px;
-  font-family: 'Nanum Myeongjo', serif;
   font-weight: 700;
+  font-family: 'Hahmlet', serif;
 }
 section#about{
 
@@ -47,7 +47,7 @@ section#about .company div:first-child{/* :first-child  첫번째자식요소 */
   display: flex; /* 기본수평왼쪽정렬 */
   flex-direction: column; /* 수직으로 정렬 */
   justify-content: center; /* 정렬방향의 중앙배치 */
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Hahmlet', serif;
 }
 section#about .company div:first-child+div{
   text-align: center;
@@ -57,13 +57,14 @@ section#about .company .subject{
 }
 section#about .company h2+p{
   line-height: 1.5;
-  font-size: 20;
   margin-bottom: 30px;
   margin-top: 30px;
+  font-size: 25px;
 }
 section#about .company h2 + p span{
   
-  font-size: 35px;
+  font-size: 45px;
+  line-height: 2.5;
 }
 section#about .company h2+p+p{
   line-height: 1.2;
@@ -72,7 +73,7 @@ section#about .company h2+p+p{
 section#about .company .go{
   background-color: #000;
   color: #fff;
-  font-size: 14px;
+  font-size: 15px;
   padding: 20px 50px;
   border: 3px solid;
   width: 135px;
@@ -106,7 +107,8 @@ section#about .company a::after{
   left: 5px;
 }
 section#about .company span.control{
-  margin-top: 70px;
+  margin-top: 45px;
+  margin-left: 60px;
 }
 section#about .company span.control button{
   border: none;
@@ -292,7 +294,7 @@ section#about .company img:first-child + img{ /* img태그는 인라인태그 �
   line-height: 1.6;
   margin-top: 20px;
   margin-bottom: 30px;
-  font-size: 20px;
+  font-size: 25px;
 }
 #history .wrap hgroup h3 span{
   display: block;
@@ -320,7 +322,7 @@ section#about .company img:first-child + img{ /* img태그는 인라인태그 �
   border-left: 3px solid;
   position: absolute;
   left: 6px;
-  top: 13px;
+  top: 15px;
 }
 #history .wrap ul.list li{
   
